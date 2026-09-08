@@ -1,0 +1,43 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: gray;
+
+    height: 10rem;
+    width: 51rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.rectangulo-superior {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+
+.cuadrados-centro{
+    background-color: white;
+    height: 45%;
+    width: 100%;
+}
+
+.rectangulo-inferior {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
