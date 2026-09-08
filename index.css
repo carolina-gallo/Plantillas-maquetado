@@ -9,11 +9,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 main {
     background-color: gray;
 
-    height: 10rem;
-    width: 51rem;
+    height: 90vh;
+    aspect-ratio: 1/1.5;
 
 
     display: flex;
