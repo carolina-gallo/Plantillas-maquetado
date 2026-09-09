@@ -102,14 +102,25 @@ main {
     align-items: center;
 }
 
-.row-lista {
+.renglon {
+    height: 16%;
+    width: 100%;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
 }
 
 .cuadrado-lista {
-
+    background-color: gray;
+    height: 100%;
+    aspect-ratio: 1 / 1;
 }
 
-.reenglon-lista {
-    
+.linea-lista {
+    background-color: rgb(255, 255, 255);
+    width: 86%;
+    height: 100%;
 }
