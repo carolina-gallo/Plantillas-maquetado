@@ -125,28 +125,59 @@ main {
     height: 100%;
 }
 
+.trescajasrenglones {
+    width: 81%;
+    height: 100%;
+    padding: 2rem;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .sectorrenglonesi {
     height: 100%;
-    width: 27%;
-    background-color: aqua;
-    
+    width: 33%;
+    padding: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center ;
 }
 
 .cuadradoylinea {
+    height: 48%;
+    width: 100%;
 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
 }
 
 .blanco {
+    height: 100%;
+    aspect-ratio: 1/1;
 
+    background-color: white;
 }
-.lineacudrado {
 
+.lineacudrado {
+    height: 22%;
+    width: 75%;
+
+    background-color: gray;
 }
 
 .lineatotal {
-
+    height: 6%;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
 }
 
 .lineacentro {
-
+    height: 6%;
+    width: 80%;
+    background-color: rgb(201, 201, 201);
 }
