@@ -43,17 +43,6 @@ main {
     flex-direction: row;
     justify-content:space-between;
 }
-.cuadrado-izquierdo {
-    background-color: rgb(233, 233, 233);
-    height: 100%;
-    width: 49.25%;
-}
-
-.cuadrado-derecho {
-    background-color: white;
-    height: 100%;
-    width: 49.25%;
-}
 
 .rectangulo-inferior {
     background-color: rgb(233, 233, 233);
@@ -202,7 +191,6 @@ main {
 .flechasytexto {
     width: 100%;
     height: 50%;
-    background-color: antiquewhite;
 
     padding-top: 0rem;
     padding-bottom: 0.6rem;
@@ -236,17 +224,26 @@ main {
 .titulonegroi {
     height: 100%;
     width: 60%;
-    background-color: black
+    background-color: gray
+}
+
+.largasycentro1 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .largoi {
-    height: 8%;
+    height: 13%;
     width: 100%;
     background-color: rgb(201, 201, 201);
 }
 
 .cortoi {
-    height: 8%;
+    height: 13%;
     width: 70%;
     background-color: rgb(201, 201, 201);
 }
@@ -254,5 +251,75 @@ main {
 .cuadradosytexto {
     width: 100%;
     height: 50%;
-    background-color:bisque;
+
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    padding-top: 0.6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.nstodito {
+    height: 100%;
+    width: 14%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.cuadradiito {
+    height: 60%;
+    aspect-ratio: 1/1;
+    background-color: rgb(174, 233, 230);
+}
+
+.abajodecuadradiito {
+    height: 28%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.abajodecuadradiito1 {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+}
+
+.abajodecuadradiito2 {
+    height: 15%;
+    width: 55%;
+    background-color: rgb(201, 201, 201);
+}
+
+.headergris {
+    width: 100%;
+    height: 12%;
+    background-color: rgb(201, 201, 201);
+}
+
+.cuadrado-izquierdo {
+    background-color: rgb(233, 233, 233);
+    height: 100%;
+    width: 49.25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.cuadrado-derecho {
+    background-color: white;
+    height: 100%;
+    width: 49.25%;
 }
