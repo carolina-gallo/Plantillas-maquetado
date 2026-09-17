@@ -303,7 +303,7 @@ main {
 
 .headergris {
     width: 100%;
-    height: 12%;
+    height: 11%;
     background-color: rgb(201, 201, 201);
 }
 
@@ -318,8 +318,33 @@ main {
     align-items: center;
 }
 
+.montañas {
+    height: 89%;
+    width: 100%;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.ahorasilamontaña {
+    height: 60%;
+    width: 100%;
+    background-color: white;
+}
+
+.textoci {
+    height: 39%;
+    width: 100%;
+}
+
 .cuadrado-derecho {
     background-color: white;
     height: 100%;
     width: 49.25%;
 }
+
