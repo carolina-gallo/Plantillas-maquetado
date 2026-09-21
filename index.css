@@ -320,10 +320,10 @@ main {
 .montañas {
     height: 89%;
     width: 100%;
-    padding-right: 4.5rem;
-    padding-left: 4.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2.8rem;
 
     display: flex;
     flex-direction: column;
@@ -331,13 +331,13 @@ main {
 }
 
 .ahorasilamontaña {
-    height: 60%;
+    height: 65%;
     width: 100%;
     background-color: white;
 }
 
 .textoci {
-    height: 39%;
+    height: 28%;
     width: 100%;
 
     display: flex;
@@ -345,20 +345,36 @@ main {
     justify-content:space-between;
 }
 
-.cuadrado-derecho {
-    background-color: white;
-    height: 100%;
-    width: 49.25%;
-}
-
 .arriba {
     width: 100%;
-    height: 18%;
+    height: 27%;
     background-color: gray;
 }
 
 .abajo  {
     width: 100%;
-    height: 35%;
+    height: 53%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.abajocompletito {
+    width: 100%;
+    height: 15%;
     background-color: rgb(201, 201, 201);
+}
+
+.abajonocompletito {
+    width: 55%;
+    height: 15%;
+    background-color: rgb(201, 201, 201);
+}
+
+.cuadrado-derecho {
+    background-color: white;
+    height: 100%;
+    width: 49.25%;
 }
