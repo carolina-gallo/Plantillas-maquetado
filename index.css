@@ -320,9 +320,9 @@ main {
 .montañas {
     height: 89%;
     width: 100%;
-    padding-right: 4.2rem;
-    padding-left: 4.2rem;
-    padding-top: 2.5rem;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    padding-top: 2.3rem;
     padding-bottom: 2.3rem;
 
     display: flex;
@@ -390,30 +390,95 @@ main {
 }
 
 .arribacuadradoderecho {
-    height: 18%;
+    height: 35%;
     width: 100%;
-    padding: 3rem;
-    background-color: blueviolet;
+    padding: 1.3rem;
+    
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:space-between;
     align-items: center;
 }
 
 .rectanguloazul {
-    width: 70%;
-    height: 50%;
+    width: 40%;
+    height: 100%;
     background-color: rgb(174, 233, 230);
 }
 
 .renglonesarribacd {
-    width: 70%;
-    height: 50%;
-    background-color: black;
+    width: 53%;
+    height: 100%;
 }
 
 .abajocuadradoderecho {
-    height: 82%;
+    height: 65%;
     width: 100%;
-    background-color: antiquewhite;
+
+    padding-left: 1.3rem;
+    padding-right: 5rem;
+    padding-bottom: 1.3rem;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.cuadradoytextod {
+    height: 23%;
+    width: 100%;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.CUADRADOytexto {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: gray;
+}
+
+.cuadradoyTEXTO {
+    height: 100%;
+    width: 77%;
+}
+
+.textoci2 {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.arribaclaro {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(201, 201, 201);
+}
+
+.grande {
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.abajocompletitofino {
+    width: 100%;
+    height: 13%;
+    background-color: rgb(201, 201, 201);
+}
+
+.abajonocompletitofino {
+    width: 55%;
+    height: 14%;
+    background-color: rgb(201, 201, 201);
 }
